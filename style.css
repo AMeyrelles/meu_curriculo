@@ -1,0 +1,228 @@
+body {
+    background-image: url(css/imagens/blackAzul.svg);
+    background-size: 150% 200%;
+    background-repeat: no-repeat;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body p{font-size: 22px;}
+#pagPrincipal {
+    font-style: normal;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(65, 63, 63);
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 100px 100px;
+    box-shadow: 2px 3px 10px #0d0d0d;
+    width: 1024px;
+    margin: 20px auto;
+}
+
+.img-top {
+    width: 40%;
+    padding: 15px;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+header {
+    background-image: url(css/imagens/fundo-abstrato-gradiente-azul-e-branco_.webp);
+    margin: auto;
+    margin-top: 10px;
+    padding: 30px;
+    position: relative;
+}
+header audio {
+    padding-left: 40%;
+    padding-bottom: 1%;
+}
+
+
+header audio {
+    margin: auto;
+}
+header nav {
+    top: 5%;    
+    left: 70%;
+    margin: 1%;    
+    position: fixed;
+}
+
+header nav ul li {
+    width: 100%;
+    text-align: center;
+    list-style: none;
+    text-transform: uppercase;
+    background: rgba(77, 76, 76, 0.1);
+    border: 1px solid #b1b0b0;
+    box-shadow: 2px 2px 5px #0d0d0d;
+    -moz-box-shadow: 2px 2px 5px #111010;
+    -webkit-box-shadow: 2px 2px 5px #000000;
+    border-radius: 10px 10px 10px 10px;    
+    cursor: pointer;
+    margin: 8px;
+    padding: 3px;
+}
+header li:hover{background: rgba(128, 128, 128, 0.3);}
+
+header nav a:link {
+    text-shadow: 0px -1px 1px #000008;
+    text-decoration: none;    
+}
+
+header nav a:hover {
+    color: rgb(243, 240, 244);;
+}
+
+header a:active {
+    cursor: pointer;
+    position: relative;
+    top: 2px;
+}
+
+#img_eu_01 {
+    border-radius: 25px 25px 25px 25px;
+    float: none;
+
+}
+
+.img_hab_qua section {
+
+    overflow: auto;
+}
+
+main {
+    background-color: rgb(240, 248, 255);
+    width: 1024;
+    margin: auto;
+}
+
+.main-margin {
+    width: 100%;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.main-site p {
+    font-size: 22px;
+}
+
+main section {
+    margin: 20%;
+}
+
+.sobreMim {
+    background: rgba(77, 76, 76, 0.05);
+    padding: 20px;
+    border-radius: 50px 50px 50px 50px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    box-shadow: 2px 3px 10px #0d0d0d;
+
+}
+
+.cursor-sobreMim {
+    cursor: url(css/cursores/user.svg), auto
+}
+
+.sobreMim p {
+    text-transform: inherit;
+}
+
+.cursos {
+    background: rgba(77, 76, 76, 0.05);
+    padding: 20px;
+    border-radius: 50px 50px 50px 50px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    box-shadow: 2px 3px 10px #0d0d0d;
+}
+
+.habilidades {
+    background: rgba(77, 76, 76, 0.05);
+    padding: 20px;
+    border-radius: 50px 50px 50px 50px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    box-shadow: 2px 3px 10px #0d0d0d;
+}
+
+.qualificacoes {
+    background: rgba(77, 76, 76, 0.05);
+
+    padding: 20px;
+    border-radius: 50px 50px 50px 50px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    box-shadow: 2px 3px 10px #0d0d0d;
+}
+
+.qualificacoes div {
+    margin: auto;
+}
+
+.projetos {
+    background: rgba(77, 76, 76, 0.05);
+    padding: 20px;
+    border-radius: 50px 50px 50px 50px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    box-shadow: 2px 3px 10px #0d0d0d;
+}
+
+.footer {
+    margin: auto;
+    background-image: url(css/imagens/fundo-abstrato-gradiente-azul-e-branco_.webp);
+    background-size: auto;    
+    box-shadow: 2px 3px 10px #0d0d0d;
+    padding: 30px;
+    position: relative;
+}
+
+.contate-me {
+    text-align: center;
+}
+
+.footerNav {padding-left: 38%;  
+    margin: auto;    
+}
+
+
+.footer ul {list-style: none;
+}
+
+.footer ul li {  
+    width: 20%;
+    position: static;
+    padding: 5px;
+    margin: 8px;
+    background: rgba(77, 76, 76, 0.1);
+    border: 1px solid #b1b0b0;
+    box-shadow: 2px 2px 5px #0d0d0d;
+    -moz-box-shadow: 2px 2px 5px #111010;
+    -webkit-box-shadow: 2px 2px 5px #000000;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+}
+
+.footer a:hover {
+    color: rgb(255, 255, 255);
+}
+footer li:hover{background: rgba(128, 128, 128, 0.3);}
+
+.footer a:link {
+    text-decoration: none;
+}
+
+.footer a {
+    text-align: center;
+    display: block;    
+    text-transform: uppercase;
+    cursor: pointer;
+
+}
+
+.footer a:active {
+    cursor: pointer;
+    position: relative;
+    top: 2px;
+}
+
+.img-html {
+    width: 100%;
+    margin: auto;
+}
