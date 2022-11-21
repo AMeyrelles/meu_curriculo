@@ -4,7 +4,11 @@ body {
     background-repeat: no-repeat;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-body p{font-size: 22px;}
+
+body p {
+    font-size: 22px;
+}
+
 #pagPrincipal {
     font-style: normal;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -22,6 +26,7 @@ body p{font-size: 22px;}
     padding-left: 30%;
     padding-right: 30%;
 }
+
 header {
     background-image: url(css/imagens/fundo-abstrato-gradiente-azul-e-branco_.webp);
     margin: auto;
@@ -29,6 +34,7 @@ header {
     padding: 30px;
     position: relative;
 }
+
 header audio {
     padding-left: 40%;
     padding-bottom: 1%;
@@ -38,10 +44,11 @@ header audio {
 header audio {
     margin: auto;
 }
+
 header nav {
-    top: 5%;    
+    top: 5%;
     left: 70%;
-    margin: 1%;    
+    margin: 1%;
     position: fixed;
 }
 
@@ -55,20 +62,24 @@ header nav ul li {
     box-shadow: 2px 2px 5px #0d0d0d;
     -moz-box-shadow: 2px 2px 5px #111010;
     -webkit-box-shadow: 2px 2px 5px #000000;
-    border-radius: 10px 10px 10px 10px;    
+    border-radius: 10px 10px 10px 10px;
     cursor: pointer;
     margin: 8px;
     padding: 3px;
 }
-header li:hover{background: rgba(128, 128, 128, 0.3);}
+
+header li:hover {
+    background: rgba(128, 128, 128, 0.3);
+}
 
 header nav a:link {
     text-shadow: 0px -1px 1px #000008;
-    text-decoration: none;    
+    text-decoration: none;
 }
 
 header nav a:hover {
-    color: rgb(243, 240, 244);;
+    color: rgb(243, 240, 244);
+    ;
 }
 
 header a:active {
@@ -166,27 +177,23 @@ main section {
 .footer {
     margin: auto;
     background-image: url(css/imagens/fundo-abstrato-gradiente-azul-e-branco_.webp);
-    background-size: auto;    
+    background-size: auto;
     box-shadow: 2px 3px 10px #0d0d0d;
     padding: 30px;
     position: relative;
 }
 
-.contate-me {
-    text-align: center;
+footer nav {margin: auto;
+    width: 100%;
+    padding-left: 40%;
 }
 
-.footerNav {padding-left: 38%;  
-    margin: auto;    
+footer ul {
+    list-style: none;
 }
 
-
-.footer ul {list-style: none;
-}
-
-.footer ul li {  
-    width: 20%;
-    position: static;
+footer ul li {
+    width: 10%;
     padding: 5px;
     margin: 8px;
     background: rgba(77, 76, 76, 0.1);
@@ -199,27 +206,34 @@ main section {
     -webkit-border-radius: 10px 10px 10px 10px;
 }
 
-.footer a:hover {
+footer a:hover {
     color: rgb(255, 255, 255);
 }
-footer li:hover{background: rgba(128, 128, 128, 0.3);}
 
-.footer a:link {
+footer li:hover {
+    background: rgba(128, 128, 128, 0.3);
+}
+
+footer a:link {
     text-decoration: none;
 }
 
-.footer a {
+footer a {
     text-align: center;
-    display: block;    
+    display: block;
     text-transform: uppercase;
     cursor: pointer;
 
 }
 
-.footer a:active {
+footer a:active {
     cursor: pointer;
     position: relative;
     top: 2px;
+}
+
+.contate-me {
+    text-align: center;
 }
 
 .img-html {
