@@ -183,8 +183,7 @@ main section {
     position: relative;
 }
 
-footer nav {margin: auto;
-    width: 100%;
+footer nav {margin: auto;    
     padding-left: 40%;
 }
 
@@ -193,7 +192,7 @@ footer ul {
 }
 
 footer ul li {
-    width: 10%;
+    width: 25%;
     padding: 5px;
     margin: 8px;
     background: rgba(77, 76, 76, 0.1);
