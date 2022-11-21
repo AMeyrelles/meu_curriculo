@@ -47,13 +47,13 @@ header audio {
 
 header nav {
     top:21%;
-    left:73%;
+    left:71%;
     margin: 1%;
     position: fixed;
 }
 
 header nav ul li {
-    width: 100%;
+    width: 90%;
     text-align: center;
     list-style: none;
     text-transform: uppercase;
