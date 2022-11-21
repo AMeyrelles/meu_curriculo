@@ -36,7 +36,7 @@ header {
 }
 
 header audio {
-    padding-left: 40%;
+    padding-left: 35%;
     padding-bottom: 1%;
 }
 
@@ -174,7 +174,7 @@ main section {
     box-shadow: 2px 3px 10px #0d0d0d;
 }
 
-.footer {
+footer {
     margin: auto;
     background-image: url(css/imagens/fundo-abstrato-gradiente-azul-e-branco_.webp);
     background-size: auto;
@@ -183,17 +183,19 @@ main section {
     position: relative;
 }
 
-footer nav {margin: auto;    
-    padding-left: 40%;
+footer nav {     
+  margin-left: 40%;
+    position: static;
 }
 
-footer ul {
+footer ul {width: 15%;
     list-style: none;
 }
 
-footer ul li {
-    width: 25%;
-    padding: 5px;
+footer li {
+    text-align: center;
+    width: 100%;
+    padding: 10px;px;
     margin: 8px;
     background: rgba(77, 76, 76, 0.1);
     border: 1px solid #b1b0b0;
@@ -205,7 +207,7 @@ footer ul li {
     -webkit-border-radius: 10px 10px 10px 10px;
 }
 
-footer a:hover {
+footer li a:hover {
     color: rgb(255, 255, 255);
 }
 
@@ -213,19 +215,17 @@ footer li:hover {
     background: rgba(128, 128, 128, 0.3);
 }
 
-footer a:link {
+footer li a:link {
     text-decoration: none;
 }
 
-footer a {
-    text-align: center;
-    display: block;
+footer li a {text-align: center;   
     text-transform: uppercase;
     cursor: pointer;
 
 }
 
-footer a:active {
+footer li a:active {
     cursor: pointer;
     position: relative;
     top: 2px;
